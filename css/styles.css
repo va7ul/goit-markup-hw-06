@@ -595,8 +595,8 @@ body {
 }
 
 .modal-close-btn {
-    transition: background-color var(--transition-dur-and-func);
-    transition: border-color var(--transition-dur-and-func);
+    transition: background-color var(--transition-dur-and-func),
+        border-color var(--transition-dur-and-func);
     position: absolute;
     top: 24px;
     right: 24px;
@@ -648,6 +648,10 @@ body {
 
 .modal-form-field {
     margin-bottom: 8px;
+}
+
+.input-form {
+    margin-bottom: 16px;
 }
 
 .modal-form-input-desc {
@@ -720,7 +724,6 @@ body {
 .modal-form-check-desc {
     display: flex;
     align-items: center;
-    margin-top: 8px;
     margin-bottom: 24px;
 
     font-size: 12px;
@@ -739,8 +742,8 @@ body {
     cursor: pointer;
     margin-right: 8px;
 
-    transition: background-color var(--transition-dur-and-func);
-    border-color: var(--transition-dur-and-func);
+    transition: background-color var(--transition-dur-and-func),
+        border-color var(--transition-dur-and-func);
 }
 
 .modal-form-check:checked+.modal-form-check-desc::before {
